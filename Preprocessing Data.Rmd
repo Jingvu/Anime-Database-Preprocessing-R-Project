@@ -1,4 +1,3 @@
-*.r linguist-detectable=true
 ---
 title: "Data Preprocessing"
 author: "Vu Kieu Chinh"
