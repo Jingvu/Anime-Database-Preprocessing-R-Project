@@ -3,28 +3,27 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 
 ## Key Features of the Project
 ### 1. Data Import & Merging:
-- Imported datasets from CSV and Excel files using R libraries (readxl, readr).
-- Merged two datasets (anime ratings and user details) to create a comprehensive dataset using left_join.
+- Importing datasets from CSV and Excel files using R libraries (readxl, readr).
+- Merging two datasets (anime ratings and user details) to create a comprehensive dataset using left_join.
 
 ### 2. Data Cleaning & Preprocessing:
 - Data type conversions: Converted columns like dates and categorical variables to their appropriate data types.
-- Data tidying: Cleaned up columns with untidy and non-standard entries, such as those containing multiple values separated by commas
-  + The genre column, which listed all genres in a single cell
-  + The location column, which combined both city and country information and has 
+- Data tidying: Cleaned up columns with untidy and non-standard entries
+  + The genre column contained multiple values separated by commas, listing all genres within a single cell.
+  + The location column, which combined both city and country information and has non-standard country names.
 - Handling missing values: Used various techniques:
-  + Imputed missing values for numerical columns with the median.
-  + Filled categorical columns with meaningful defaults.
-  + Applied predictive modeling (mice package) for missing date values.
+  + Imputing missing values for numerical columns with the median.
+  + Filling categorical columns with meaningful defaults.
+  + Applying predictive modeling (mice package) for missing date values.
+- Detecting & handling special value (infinite, NaN).
+- Identifying potential data entry errors.
 
-### 3. Data Transformation & Consistency:
-- Introduced a new variable, Consistency_Score, to analyze user rating behavior.
-- Handled outliers using capping techniques to preserve data integrity while minimizing the impact of extreme values.
-- Transformed skewed variables (e.g., score) using mathematical transformations (e.g., square, cube, Box-Cox) to achieve normal distribution for better analysis.
+### 3. Handling Outliers:
+- Detecting outliers
+- Handling outliers using capping techniques to preserve data integrity while minimizing the impact of extreme values.
 
-### 4. Visualizations & Analysis:
-- Visualized the distribution of ratings, user engagement, and consistency scores using ggplot2.
-- Generated boxplots, histograms, and summary statistics to understand data patterns and detect anomalies.
-- Analyzed the impact of data transformations on variable distributions.
+### 4. Data Transformation:
+- Applied various mathematical transformations (square, cube, Box-Cox, log, log10, square root, cube root, reciprocal and reciprocal square) to make their distributions closer to normal, improving the accuracy of subsequent analyses.
 
 ## The Principle
 ### 1. Outliers
