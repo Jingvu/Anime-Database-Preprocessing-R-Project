@@ -26,4 +26,4 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 - Applied various mathematical transformations (square, cube, Box-Cox, log, log10, square root, cube root, reciprocal and reciprocal square) to make their distributions closer to normal, improving the accuracy of subsequent analyses.
 
 ## The Principle
-### 1. Outliers
+### 1. Missing Value Imputation
