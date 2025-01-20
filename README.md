@@ -31,7 +31,7 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 Outliers can:
 - Raise error variance
 - Weaken the power of statistical tests
-- Bias model parameter estimate
+- Bias model parameter estimate/
 However, outliers aren’t always removed. In some cases, like anomaly or fraud detection, outliers can provide valuable insights and should be investigated further.
 
 #### b. There are two main types of outliers:
