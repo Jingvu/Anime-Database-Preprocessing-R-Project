@@ -31,12 +31,12 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 Outliers can:
 - Raise error variance
 - Weaken the power of statistical tests
-- Bias model parameter estimate/
+- Bias model parameter estimate\
 However, outliers aren’t always removed. In some cases, like anomaly or fraud detection, outliers can provide valuable insights and should be investigated further.
 
 #### b. There are two main types of outliers:
-- **Univariate outliers**: involve a single variable and are identified within the distribution of that variable
-- **Multivariate outliers**: involve multiple variables and are identified within the multidimensional distribution
+- **Univariate outliers**: involve a single variable and are identified within the distribution of that variable (can be detected by boxplot or distance based methods for normally distributed data)
+- **Multivariate outliers**: involve multiple variables and are identified within the multidimensional distribution (can be detected by boxplot, scatter plot for a given pair of variables, The mahalanobis distance or QQ plot)
 
 #### c. Common causes of outliers:
 - **Data Entry Errors** (Ex: Entering "1000" instead of "100" for a salary value)
@@ -52,3 +52,8 @@ However, outliers aren’t always removed. In some cases, like anomaly or fraud 
 - **Capping**: replacing outliers with the nearest non-outlier values when extreme values are valid variations in the data, not errors
 - **Transforming and binning values**: natural logarithm of a value reduces the variation
 caused by outliers
+
+### 2. Handling Missing Values
+- Replace missing values with a constant defined
+- Fill missing values using the mean, median or mode
+- Apply predictive models to impute missing data, such as regression analysis, multiple imputation, random forests, nearest neighbors or methods like last observation carried forward/next observation carried backward. R offer packages such as mice, missForest, and impute for this purpose.
