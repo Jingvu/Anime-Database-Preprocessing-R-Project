@@ -3,8 +3,8 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 
 ## Key Features of the Project
 ### 1. Data Import & Merging:
-- Importing datasets from CSV and Excel files using R libraries (readxl, readr).
-- Merging two datasets (anime ratings and user details) to create a comprehensive dataset using left_join.
+- Importing datasets from CSV and Excel files using R libraries.
+- Merging two datasets (anime ratings and user details) to create a comprehensive dataset.
 
 ### 2. Data Cleaning & Preprocessing:
 - Data type conversions: Converted columns like dates and categorical variables to their appropriate data types.
