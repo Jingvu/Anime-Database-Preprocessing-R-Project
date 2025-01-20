@@ -26,4 +26,27 @@ In this project, I applied my data wrangling and preprocessing skills to the Ani
 - Applied various mathematical transformations (square, cube, Box-Cox, log, log10, square root, cube root, reciprocal and reciprocal square) to make their distributions closer to normal, improving the accuracy of subsequent analyses.
 
 ## The Principle
-### 1. Missing Value Imputation
+### 1. Handling Outliers
+#### a. Why?
+Outliers can:
+- Raise error variance
+- Weaken the power of statistical tests
+- Bias model parameter estimate
+
+#### b. There are two main types of outliers:
+- Univariate outliers: involve a single variable and are identified within the distribution of that variable
+- Multivariate outliers: involve multiple variables and are identified within the multidimensional distribution
+
+#### c. Common causes of outliers:
+- Data Entry Errors (Ex: Entering "1000" instead of "100" for a salary value)
+- Measurement Errors: made due to faulty measurement instruments (Ex: A thermometer recording a body temperature of 100°C)
+- Experimental Errors: made during data extraction, experiment planning or execution (Ex: Inconsistent watering skews plant growth in a biology experiment)
+- Intentional Errors: caused by underreporting or overreporting often in self-reported data (Ex: Respondents in a health survey overreport their daily exercise routines)
+- Data Processing Errors: made during the integration or manipulation of data from multiple sources (Ex: Merging two datasets where one records height in cm and the other in inch)
+- Sampling Errors: caused by non-representative sample (Ex: under 30 observations in the sample)
+
+#### d. Handling Outliers
+- Deleting:
+- Imputing:
+- Capping:
+- Transforming and binning values:
