@@ -3,7 +3,7 @@
 
 In this project, I applied my data wrangling and preprocessing skills to the Anime Dataset 2023 from Kaggle with the goal of cleaning, transforming and preparing it for analysis. The dataset contains a wealth of information, including user ratings, metadata, and demographics. However, real-world data is rarely clean—this project focuses on making the dataset usable, consistent, and analysis-ready by handling missing values, outliers, and transformations.
 
-## Challenges Solved
+## Objective
 - Merging multiple datasets into a single clean and structured dataset
 - Handling missing values using imputation, defaults and predictive modeling
 - Detecting and treating outliers to avoid skewed analysis
