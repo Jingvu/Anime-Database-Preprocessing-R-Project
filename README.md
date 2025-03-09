@@ -1,4 +1,4 @@
-# Preprocessing Data
+# Anime Database Preprocessing
 In this project, I applied my data wrangling and preprocessing skills to the Anime Dataset 2023 from Kaggle with the goal of cleaning, transforming, and preparing it for analysis. The dataset included user ratings, anime metadata, and user demographics, and I focused on ensuring data quality and consistency throughout. Key tasks involved importing and merging data, handling missing values, handling outliers, transforming variables, and visualizing results to extract meaningful insights. I particularly concentrated on three crucial areas: transforming data for better distribution, handling outliers to avoid skewed analysis, and managing missing values using various techniques. This repository not only demonstrates my approach to solving these challenges but also serves as a helpful resource with R code examples for anyone interested, as well as a reference for my future projects.
 
 ## Key Features of the Project
